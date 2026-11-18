@@ -1,0 +1,14 @@
+{
+  "name": "lucia-aprende-jugando",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Lucía — Aprende Jugando: app educativa offline para niños de 3 años (PWA, sin dependencias).",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "node tools/build.mjs --watch",
+    "serve": "python3 -m http.server 8080",
+    "test": "node tools/build.mjs && node tests/e2e.mjs"
+  },
+  "license": "UNLICENSED"
+}

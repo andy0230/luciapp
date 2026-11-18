@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<!-- Seguridad: todo es local. Sin servidores externos, sin fuentes remotas, sin rastreadores. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; media-src 'self' data: blob:; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Lucía · Aprende Jugando</title>
+<meta name="description" content="Un pequeño mundo para aprender jugando: descubrir, jugar, crear y primeras palabras en inglés.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lucía">
+<meta name="theme-color" content="#FBF5EA">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icons/icono.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>
+/*@@CSS@@*/
+</style>
+</head>
+<body>
+  <a class="saltar" href="#app">Ir al contenido</a>
+  <header class="barra">
+    <button id="btnAtras" class="pastilla" type="button" aria-label="Volver"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19 7 L10 16 L19 25" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <div class="barra-der">
+      <button id="btnIdioma" class="pastilla" type="button" aria-label="Español e inglés" aria-pressed="false"><span class="idioma-txt">ES</span></button>
+      <button id="btnSon" class="pastilla" type="button" aria-label="Sonido" aria-pressed="true"><svg viewBox="0 0 32 32" aria-hidden="true"><path class="son-cuerpo" d="M6 12h5l7-6v20l-7-6H6z" fill="currentColor"/><path class="son-ondas" d="M22 11c2 2.5 2 7.5 0 10M25.5 7.5c4 4.5 4 12.5 0 17" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path class="son-x" d="M21 12l8 8M29 12l-8 8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div id="vivo" class="solo-lector" aria-live="polite"></div>
+  <noscript><p style="padding:40px;font:600 20px system-ui">Esta app necesita JavaScript activado.</p></noscript>
+<script>
+/*@@JS@@*/
+</script>
+</body>
+</html>
